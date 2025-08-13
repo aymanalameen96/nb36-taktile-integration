@@ -1,1 +1,20 @@
+name: Update Taktile Code Nodes
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-code-nodes:
+    runs-on: ubuntu-latest
+
+    steps:
+  
+      - name: Update Taktile Code Nodes
+        env:
+          TAKTILE_API_KEY: ${{ secrets.TAKTILE_API_KEY }}
+          TAKTILE_ORG_NAME: ${{ secrets.TAKTILE_ORG_NAME }}
+        run: |
+          python update_code_nodes.py
 
