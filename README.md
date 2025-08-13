@@ -7,7 +7,6 @@ This repository enables automated updates of Taktile Code Nodes via GitHub Actio
 1. Place your Code Node files inside `code/`
 2. Create `config.json` mapping files to node IDs:
    ```json
-   {
   "Summarize.py": {
     "flow_id": "06457ab1-3367-43c3-9e6b-4dbaa88d1b1b",
     "node_id": "affc68e2-f4e7-40b2-a8e4-4f08ac9cc643"
