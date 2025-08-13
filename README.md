@@ -9,7 +9,7 @@ This repository enables automated updates of Taktile Code Nodes via GitHub Actio
    ```json
 {
      "code_node_1.py": "code-node-id-123"
-   }
+}
 Store the following secrets in GitHub:
 TAKTILE_API_KEY
 TAKTILE_ORG_ID
