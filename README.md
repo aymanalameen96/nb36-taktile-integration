@@ -8,7 +8,7 @@ This repository enables automated updates of Taktile Code Nodes via GitHub Actio
 2. Create `config.json` mapping files to node IDs:
    ```json
    {
-     "code_node_1.py": "code-node-id-123"
+     ""Summarize.py": {"
    }
 Store the following secrets in GitHub:
 TAKTILE_API_KEY
