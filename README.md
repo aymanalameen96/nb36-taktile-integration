@@ -8,7 +8,8 @@ This repository enables automated updates of Taktile Code Nodes via GitHub Actio
 2. Create `config.json` mapping files to node IDs:
    ```json
    {
-     ""Summarize.py": {"
+     "Summarize.py": {
+      "flow_id": "06457ab1-3367-43c3-9e6b-4dbaa88d1b1b",
    }
 Store the following secrets in GitHub:
 TAKTILE_API_KEY
